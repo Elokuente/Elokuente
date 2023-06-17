@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Diagrama BPMN</title>
+  <style>
+    /* Estilos para los elementos del diagrama */
+    .element {
+      width: 200px;
+      height: 100px;
+      border: 1px solid black;
+      text-align: center;
+      line-height: 100px;
+      margin: 10px;
+      float: left;
+    }
+    .arrow {
+      width: 0;
+      height: 0;
+      border-top: 10px solid transparent;
+      border-bottom: 10px solid transparent;
+      border-left: 10px solid black;
+      display: inline-block;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+  <div class="element">Vendedor</div>
+  <div class="arrow"></div>
+  <div class="element">Departamento de<br>Facturación</div>
+  <div class="arrow"></div>
+  <div class="element">Facturas<br>pendientes?</div>
+  <div class="arrow"></div>
+  <div class="element">Cliente con<br>facturas pendientes</div>
+  <div class="arrow"></div>
+  <div class="element">Notificar vendedor<br>para avisar al cliente</div>
+  <div class="arrow"></div>
+  <div class="element">Departamento de<br>Bodegas</div>
+  <div class="arrow"></div>
+  <div class="element">Verificar stock</div>
+  <div class="arrow"></div>
+  <div class="element">Stock suficiente?</div>
+  <div class="arrow"></div>
+  <div class="element">Stock suficiente<br>y OK de facturación</div>
+  <div class="arrow"></div>
+  <div class="element">Enviar pedido<br>al cliente</div>
+  <div class="arrow"></div>
+  <div class="element">Cliente</div>
+</body>
+</html>
